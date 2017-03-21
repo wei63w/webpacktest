@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<style>
+	#testpic{
+		height: 200px;
+		width: 200px;
+		border: 1px solid blue;
+		background-image: url(img/109.jpg);
+		background-size: 200px 200px;
+	}
+	#testpic2{
+		height: 100px;
+		width: 100px;
+		border: 1px solid blue;
+		background-image: url(img/loadlogo.png);
+		background-size: 100px 100px;
+	}
+</style>
+<body>
+    <h1 id="app"></h1>
+    <script src="bundle.js"></script>
+    <!-- 注意这里引入的不是我们创建的文件，而是用webpack生成的文件 -->
+    
+    <!--<img src="img/109.jpg" />-->
+    <div id="testpic"></div>
+    <div id="testpic2"></div>
+</body>
+</html>
